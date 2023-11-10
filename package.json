@@ -1,0 +1,30 @@
+{
+  "name": "cte-generator",
+  "version": "1.0.0",
+  "description": "Gerador de cte com dados aleatórios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldoprazeresjr2/cte-generator.git"
+  },
+  "author": "Ronaldo Prazeres Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldoprazeresjr2/cte-generator/issues"
+  },
+  "homepage": "https://github.com/ronaldoprazeresjr2/cte-generator#readme",
+  "dependencies": {
+    "faker-br": "^0.4.1",
+    "minimist": "^1.2.8",
+    "random-string-generator": "^1.0.1",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
